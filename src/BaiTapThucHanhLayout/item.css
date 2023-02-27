@@ -1,0 +1,26 @@
+.item-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card-head{
+    background: #80808082;
+    text-align: center;
+    height: 325px;
+    line-height: 325px;
+}
+
+.card-head p {
+    font-size: 30px;
+    color: gray;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-footer {
+    text-align: center;
+    padding: 15px 0;
+}
